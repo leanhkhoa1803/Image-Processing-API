@@ -13,7 +13,7 @@ const processImage = async (
   try {
     await sharp(params.source)
       .resize(params.width, params.height)
-      .toFormat('png')
+      .toFormat('jpg')
       .toFile(params.target)
     return null
   } catch {
