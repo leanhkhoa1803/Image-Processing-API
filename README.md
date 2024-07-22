@@ -7,3 +7,4 @@ Config:
 - Start server: npm run start
   
 The server will listen on port 4000
+Here is an endpoint is always return status 200 : http://localhost:4000/
